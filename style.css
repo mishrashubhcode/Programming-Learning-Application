@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #f0f0f0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+}
+
+main {
+	padding: 20px;
+}
+
+/* styles for the boxes on all pages */
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 20px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	border: 1px solid #000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease;
+}
+
+.box:hover {
+	transform: scale(1.05);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* styles for the boxes on the Python page */
+.box.p1 {
+	background-color: #ffcc66;
+}
+
+.box.p2 {
+	background-color: #66cccc;
+}
+
+
+.box h3 {
+	font-size: 28px;
+	margin-top: 30px;
+	color: #333;
+}
+
+.box p {
+	font-size: 16px;
+	margin-top: 20px;
+	color: #666;
+	line-height: 1.5;
+}
+
+.box#py {
+    background-color: #ffcc66;
+    }
+    
+    .box#JAV {
+    background-color: #66cccc;
+    }
+    
+    .box#CS {
+    background-color: #99cc99;
+    }
+    
+    .box#JS {
+    background-color: #ff6666;
+    }

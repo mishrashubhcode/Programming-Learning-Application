@@ -1,0 +1,18 @@
+/* styles for python page */
+header {
+	background-color: #006699;
+	color: #fff;
+}
+
+main {
+	background-color: #f0f0f0;
+}
+
+/* styles for the two new boxes */
+.box.p1 {
+	background-color: #ffcc66;
+}
+
+.box.p2 {
+	background-color: #66cccc;
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 50px;
+  }
+  
+  .level-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .level {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .level:hover {
+    transform: translateY(-10px);
+  }
+  
+  .level h2 {
+    font-size: 1.5em;
+  }
+  
+  .connector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    pointer-events: none;
+  }
+  
+  .connector line {
+    stroke-dasharray: 10;
+    stroke-linecap: round;
+  }
+  

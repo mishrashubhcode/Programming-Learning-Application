@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <h1>Python Quiz</h1>
+  <div class="quiz-container">
+    <form onsubmit="submitQuiz(); return false;">
+      <h3>Question 1:</h3>
+      <p>What is the output of the following code?</p>
+      <pre><code>x = 10<br>y = 5<br>print(x + y * 2)</code></pre>
+      <label>
+        <input type="radio" id="q1a1" name="q1" value="a">
+        <span>20</span>
+      </label>
+      <label>
+        <input type="radio" id="q1a2" name="q1" value="b">
+        <span>15</span>
+      </label>
+      <label>
+        <input type="radio" id="q1a3" name="q1" value="c">
+        <span>30</span>
+      </label>
+
+      <h3>Question 2:</h3>
+      <p>Which of the following is not a data type in Python?</p>
+      <label>
+        <input type="radio" id="q2a1"  name="q2" value="a">
+        <span>int</span>
+      </label>
+      <label>
+        <input type="radio" id="q2a2"  name="q2" value="b">
+        <span>float</span>
+      </label>
+      <label>
+        <input type="radio"  id="q2a3" name="q2" value="c">
+        <span>decimal</span>
+      </label>
+
+      <h3>Question 3:</h3>
+      <p>What is the output of the following code?</p>
+      <pre><code>x = [1, 2, 3]<br>print(x[1:])</code></pre>
+      <label>
+        <input type="radio"  id="q3a1" name="q3" value="a">
+        <span>[1, 2, 3]</span>
+      </label>
+      <label>
+        <input type="radio" id="q3a2"  name="q3" value="b">
+        <span>[2, 3]</span>
+      </label>
+      <label>
+        <input type="radio" id="q3a3"  name="q3" value="c">
+        <span>[1]</span>
+      </label>
+
+      <h3>Question 4:</h3>
+      <p>Which of the following is a loop statement in Python?</p>
+      <label>
+        <input type="radio" id="q4a1"  name="q4" value="a">
+        <span>if</span>
+      </label>
+      <label>
+        <input type="radio" id="q4a2"  name="q4" value="b">
+        <span>while</span>
+      </label>
+      <label>
+        <input type="radio" id="q4a3"  name="q4" value="c">
+        <span>try</span>
+      </label>
+
+      <h3>Question 5:</h3>
+      <p>Which of the following is a conditional statement in Python?</p>
+      <label>
+        <input type="radio" id="q5a1"  name="q5" value="a">
+        <span>if</span>
+      </label>
+      <label>
+        <input type="radio" id="q5a2"  name="q5" value="b">
+        <span>else</span>
+      </label>
+      <label>
+        <input type="radio" id="q5a3"  name="q5" value="b">
+        <span>pass</span>
+      </label>
+
+      <h3>Question 6:</h3>
+      <p>Which of the following is a data type in Python?</p>
+      <label>
+        <input type="radio"  id="q6a1" name="q6" value="a">
+        <span>list</span>
+      </label>
+      <label>
+        <input type="radio" id="q6a2"  name="q6" value="b">
+        <span>index</span>
+      </label>
+      <label>
+        <input type="radio" id="q6a3"  name="q6" value="b">
+        <span>map</span>
+      </label>
+
+      <h3>Question 7:</h3>
+      <p>What is the output of the following code snippet?</p>
+      <pre><code>print("Hello", end=" ")<br>print("world")</code></pre>
+      <label>
+        <input type="radio" id="q7a1"  name="q7" value="a">
+        <span>Hello world</span>
+      </label>
+      <label>
+        <input type="radio" id="q7a2"  name="q7" value="b">
+        <span>HelloWorld</span>
+      </label>
+      <label>
+        <input type="radio" id="q7a3"  name="q7" value="b">
+        <span>Error</span>
+      </label>
+
+      <h3>Question 8:</h3>
+      <p>What is the output of the following code snippet?</p>
+      <pre><code>list = [1, 2, 3]<br>print(list[0:2])</code></pre>
+      <label>
+        <input type="radio" id="q8a1"  name="q8" value="a">
+        <span>[1, 2]</span>
+      </label>
+      <label>
+        <input type="radio" id="q8a2"  name="q8" value="b">
+        <span>[2, 3]</span>
+      </label>
+      <label>
+        <input type="radio" id="q8a3"  name="q8" value="b">
+        <span>[1, 2, 3]</span>
+      </label>
+
+      <h3>Question 9:</h3>
+      <p>Which keyword is used to define a function in Python?</p>
+      <label>
+        <input type="radio"  id="q9a1" name="q9" value="a">
+        <span>def</span>
+      </label>
+      <label>
+        <input type="radio"  id="q9a2" name="q9" value="b">
+        <span>function</span>
+      </label>
+      <label>
+        <input type="radio" id="q9a3"  name="q9" value="b">
+        <span>define</span>
+      </label>
+
+      <h3>Question 10:</h3>
+      <p>What is the output of the following code snippet?</p>
+      <pre><code>num1 = 10<br>num2 = 20<br>print(num1 + num2)</code></pre>
+      <label>
+        <input type="radio" id="q10a1"  name="q10" value="a">
+        <span>30</span>
+      </label>
+      <label>
+        <input type="radio"  id="q10a2" name="q10" value="b">
+        <span>1020</span>
+      </label>
+      <label>
+        <input type="radio"  id="q10a3" name="q10" value="b">
+        <span>Error</span>
+      </label>
+
+    </form>
+  </div>
+  <button type="submit" onclick="submitQuiz()">Submit Quiz</button>
+
+  <script src="quiz.js"></script>
+
+</body>
+</html>
+
